@@ -9,8 +9,11 @@
 -   Add below stripe details in your .env file
 
 STRIPE_KEY=pk_test**\*\*\*\***\***\*\*\*\***\*\*\*\***\*\***\*\*\*\***\*\***
+
 STRIPE_SECRET=sk_test**\*\***\*\*\*\***\*\***\***\*\***\*\*\*\***\*\***
+
 CASHIER_CURRENCY=inr
+
 CASHIER_CURRENCY_LOCALE=INR
 
 -   Run `php artisan serve` to start the application.
