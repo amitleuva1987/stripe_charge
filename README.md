@@ -17,3 +17,4 @@ CASHIER_CURRENCY=inr
 CASHIER_CURRENCY_LOCALE=INR
 
 -   Run `php artisan serve` to start the application.
+-   Use `4000003560000008` (credit card) to test transaction. enter any future date as card expire date, use any 3 digit number as CVV
