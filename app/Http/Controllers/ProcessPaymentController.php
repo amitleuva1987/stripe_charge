@@ -19,6 +19,6 @@ class ProcessPaymentController extends Controller
         } catch (\Exception $e) {
             return back()->withErrors(['message' => 'Error .... ' . $e->getMessage()]);
         }
-        return redirect('home');
+        return redirect('home')->with('message', 'We have received your payment!');
     }
 }
